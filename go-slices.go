@@ -13,4 +13,9 @@ func main() {
 	for index, item := range items {
 		fmt.Printf("index: %d has item of %s \n", index, item)
 	}
+
+	mySlice := []int{1, 2, 3, 4, 5}
+	myNewSlice := []int{10, 20, 30}
+	mySlice = append(mySlice, myNewSlice...)
+	fmt.Println(mySlice)
 }
