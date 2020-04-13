@@ -18,4 +18,20 @@ func main() {
 		"Brazil": 100,
 	}
 	fmt.Println(newMapCovidByCountry)
+
+	newMapCovidByCountry["UK"] = 100
+	delete(newMapCovidByCountry, "Mexico")
+
+	fmt.Println(newMapCovidByCountry)
+
+	fmt.Println()
+	for country, infected := range map[string]int{
+		"Canada": 50,
+		"EUA":    200,
+		"Mexico": 80,
+		"Brazil": 100,
+	} {
+		fmt.Printf("the count infected was %d on %s\n", infected, country)
+		fmt.Println("------")
+	}
 }
