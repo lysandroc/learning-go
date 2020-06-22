@@ -1,10 +1,10 @@
-package main
+package functions
 
 import (
 	"fmt"
 )
 
-func main() {
+func SliceExamples() {
 	items := []string{"Item1", "Item2", "Item3"}
 	items = make([]string, 5, 10)
 

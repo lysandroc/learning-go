@@ -1,8 +1,8 @@
-package main
+package functions
 
 import "fmt"
 
-func main() {
+func MapExample() {
 	covidByCountry := make(map[string]int)
 	covidByCountry["EUA"] = 200
 	covidByCountry["Canada"] = 50

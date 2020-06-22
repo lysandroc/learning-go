@@ -1,10 +1,10 @@
-package main
+package functions
 
 import (
 	"fmt"
 )
 
-func main() {
+func StructExample() {
 	type car struct {
 		weight    float64
 		sizeWheel int

@@ -1,4 +1,4 @@
-package main
+package functions
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func GoRoutinesWaitGroupExample() {
 	var waitGroup sync.WaitGroup
 	waitGroup.Add(2)
 

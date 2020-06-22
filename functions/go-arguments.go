@@ -1,4 +1,4 @@
-package main
+package functions
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func main() {
+func Arguments() {
 
 	//first way
 	fmt.Println(os.Args[1:])

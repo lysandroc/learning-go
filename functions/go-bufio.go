@@ -1,5 +1,5 @@
 //go get gopl.io/ch1/dup1
-package main
+package functions
 
 import (
 	"bufio"
@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func main() {
+func BufIO() {
 	counts := make(map[string]int)
 	input := bufio.NewScanner(os.Stdin)
 
